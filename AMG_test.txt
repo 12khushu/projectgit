@@ -1,0 +1,82 @@
+1.	Difference between a pseudo-class and a pseudo-element.
+Ans: Pseudo-element:A pseudo-class can be defined as a keyword which is combined to a selector that defines the special state of the selected elements. Unlike the pseudo-classes, the pseudo-elements are used to style the specific part of an element, whereas the pseudo-classes are used to style the element.
+    ==============  
+    Syntax:
+    ========
+    selector::pseudo-element {  
+  property: value;  
+}  
+
+pseudo element in use of css:
+===================================
+1>::first-letter
+2>::first-line
+3>::before
+4>::after
+5>::selection
+
+Pseudo Class:
+================
+A pseudo-class can be defined as a keyword which is combined to a selector that defines the special state of the selected elements. It is added to the selector for adding an effect to the existing elements based on their states. For example, The ":hover" is used for adding special effects to an element when the user moves the cursor over the element.
+the names of the pseudo-class are not case-sensitive.
+Syntax:
+===========
+selector: pseudo-class {  
+  property: value;  
+}  
+
+2.	What is the difference between span and div?
+Ans: The tags (<div> and <span>) are used to represent the part of the webpgage, <div> tag is used a as block part of the webpage and <span> tag is used as a inline part of the webpage.
+example: span:
+        =======<p><span>My first program</span><span>website development</span></p>
+        output:My first program website development
+        div:
+        =====<div>My first program</div>
+            <div>website development</div>
+            output: My first program
+                    website development
+
+3. Is it possible for a web page to have multiple <header> and <footer> elements?
+Ans:Yes, both <header> and <footer> can be added multiple times in a webpage. Both of these tags are designed to serve a crucial purpose in relation to their parent section.
+
+4.Which property is used to create a small-caps effect?
+Ans:The font-variant property is used to create a small-caps effect. The font-weight property is used to increase or decrease how bold or light a font appears.
+
+5.Explain what is Bootstrap collapsing elements?
+Ans:The collapse JavaScript plugin is used to show and hide content. Buttons or anchors are used as triggers that are mapped to specific elements you toggle.
+
+6.What are tags and attributes in HTML?
+Ans:HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used to describe the characteristic of an HTML element in detail. ... HTML elements specifies the general content. HTML attributes specify various additional properties to the existing HTML element.
+
+7. What is column ordering in Bootstrap?
+Ans:Column ordering classes allow us to change the order of our grid system based on different browser sizes. This means that on a large screen, you can have a different grid than on a mobile screen. For example, let's say we have 3 columns (A, B, and C) on large screens.
+
+8.What are offset columns in Bootstrap?
+Ans:An offset is used to push columns over for more spacing. To use offsets on large displays, use the . col-md-offset classes
+
+9.Is the <datalist> tag and <select> tag same?
+Ans:Select input element presents options for the users from which they need to select one of them. On the otherhand, Datalist presents a list of suggested values to the associated input form (text) field and users are free to select one of those suggested values or type in their own value.
+
+10.Is it possible to change an inline element into a block level element?
+Ans:You can't put block elements inside inline elements. Formatting. By default, inline elements do not force a new line to begin in the document flow.
+
+11.What is semantic elements in html5? List some semantic elements.
+
+Ans:Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+
+12.What are the different types of Selectors in CSS?
+Ans:Diffrent type of selectors-
+1.CSS Element Selector.
+2.CSS Id Selector.
+3.CSS Class Selector.
+4.CSS Universal Selector.
+5.CSS Group Selector
+
+13:What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?
+Ans:In fact, LESS is a JavaScript library that extends the functionality of native vanilla CSS with mixins, variables, nesting and rule set loop. Sass vs LESS has been a heated debate. ... However, One key advantage of LESS over Sass and Stylus or any other preprocessors, is the ease of adding it in your project.
+
+14.Different Box Sizing Property?
+Ans:The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now!
+
+15.Difference between CSS grid vs flexbox?
+Ans: CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time
